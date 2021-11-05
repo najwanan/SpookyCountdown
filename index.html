@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Countdown</title>
+ <style>
+
+   @import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&family=Rye&display=swap');
+
+    .container{
+    width:100vw;
+    height:100vh; 
+    background:burlywood;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/35888/amazing-beautiful-breathtaking-clouds.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    }
+
+    #blackCat{
+     height:100vh;
+    }
+
+    span{
+        color:white;
+        font-size: 25px;
+    }
+
+    p{
+        color:white;
+       
+    }
+    h3{
+        color:darkorange;
+        font-family: 'Mystery Quest';
+        
+    }
+
+    .timer{
+        margin: 30px;
+    }
+ </style>
+</head>
+<body>
+
+    <div class="container">
+       
+        <p id="clock">
+          <div class="timer">
+              <H3>days</H3>
+            <span id="days"></span>
+          </div>
+          <div class="timer">
+            <H3>hours</H3>
+            <span id="hours"></span>
+          </div>
+          <div class="timer">
+            <H3>minutes</H3>
+            <span id="minutes"></span>
+          </div>
+          <div class="timer">
+            <H3>seconds</H3>
+            <span id="seconds"></span>
+          </div>
+          
+        </p>
+         
+        
+      </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
